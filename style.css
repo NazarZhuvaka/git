@@ -1,0 +1,57 @@
+@import "./reset.css";
+
+li {
+    line-height: 1.4;
+}
+
+
+.wrapper{
+    margin-inline: auto;
+    max-width: 50%;    
+}
+
+/* HEADER */
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.header__contacts{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__person{
+    font-size: 34px;
+    letter-spacing: 5px;
+    margin: 25px 0;
+}
+
+/* MAIN */
+
+.main{
+    max-width: 810px;
+    margin-inline: auto;
+
+    display: grid;
+    grid-template: auto / minmax(200px, 300px) minmax(400px, 1fr);
+    column-gap: 30px;
+}
+
+.experience__time{
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.info-languages__ul{
+    padding-left: 2px;
+    li {
+        list-style: none;
+    }
+
+    span{
+        opacity: 0.6;
+    }
+}
